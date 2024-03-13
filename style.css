@@ -1,0 +1,185 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .container {
+    max-width: 1440px;
+    width: 100%;
+    padding: 0 10px;
+    margin: 0 auto;
+  }
+  
+  #create {
+    display: block;
+  }
+  section {
+    display: none;
+  }
+  
+  /* create */
+  #create {
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    border-radius: 15px;
+    height: 100vh;
+    background: linear-gradient(
+      184.21deg,
+      #888686 19.04%,
+      rgba(0, 0, 0, 0.13) 73.38%,
+      rgba(136, 134, 134, 0) 81.77%
+    );
+  }
+  .createBlock {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+    img {
+      width: 100px;
+      height: 100px;
+      display: flex;
+      align-items: center;
+      border-radius: 12px;
+    }
+  }
+  .createBtn1 {
+    color: black;
+  }
+  input {
+    background: white;
+    outline: none;
+    border: none;
+    padding: 10px 15px;
+    font-size: 15px;
+    width: 597px;
+  }
+  button {
+    margin-top: 3%;
+    padding: 15px 20px;
+    font-size: 15px;
+    border-radius: 15px;
+    background: orange;
+    border: none;
+    color: white;
+    margin-bottom: 20px;
+    cursor: pointer;
+  }
+  /* create */
+  
+  /* list */
+  
+  #list {
+    padding: 20px 0;
+    background: rgb(237, 234, 234);
+  }
+  
+  .listHeaderBox {
+    border-top: 2px solid orange;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px 0;
+    p {
+      color: rgb(70, 65, 65);
+    }
+  }
+  p:first-child {
+    margin-left: 100px;
+  }
+  p:last-child {
+    margin-right: 100px;
+  }
+  .listBox {
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .listCard {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background: red; */
+    img {
+      width: 100px;
+      border-radius: 10px;
+    }
+    span {
+      margin: 0 15px;
+      color: orange;
+      font-size: 25px;
+      cursor: pointer;
+    }
+  }
+  .h3div {
+    display: flex;
+    align-items: center;
+    /* background: red; */
+    gap: 200px;
+  }
+  /* list */
+  
+  /* save */
+  #save {
+    background: linear-gradient(
+      184.21deg,
+      #888686 19.04%,
+      rgba(0, 0, 0, 0.13) 73.38%,
+      rgba(136, 134, 134, 0) 81.77%
+    );
+  }
+  .saveBLock {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 15px;
+    height: 100vh;
+  }
+  
+  .saveBtn {
+    background: rgb(112, 102, 102);
+    border-radius: 10px;
+  }
+  /* save */
+  
+  /* del */
+  
+  #delete {
+    background: linear-gradient(
+      184.21deg,
+      #888686 19.04%,
+      rgba(0, 0, 0, 0.13) 73.38%,
+      rgba(136, 134, 134, 0) 81.77%
+    );
+  }
+  .delete {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    h1 {
+      background: white;
+      padding: 20px 50px;
+      border-radius: 30px;
+      text-align: center;
+      font-size: 20px;
+    }
+  }
+  .btn1 {
+    width: 153px;
+  }
+  .btn2 {
+    width: 153px;
+    background: darkblue;
+  }
+  /* del */
+  
